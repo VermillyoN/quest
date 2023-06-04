@@ -1,0 +1,112 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+    background: url('../img/bg-desktop.svg')  no-repeat;
+    background-color: var(--primary-soft);
+    background-size: cover;
+    /* width: 100vw; */
+    max-width: 1440px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main{
+    width: 90%;
+    height: 100vh;                        
+}
+.huddle{
+    margin-top: 50px;
+}
+
+.huddle img{
+    width: 200px;    
+}
+
+.container-informacoes{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.container-informacoes .layout{
+   margin: 0px 0 0 40px; 
+}
+
+.container-informacoes .layout img{
+    width: 800px;
+    margin-top: 140px;
+}
+
+.about{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 80%;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.about h2{
+    
+    font-size: 35px;
+    font-weight: 600;
+    width: 400px;
+    margin: 0;
+}
+
+.about p{
+    font-size: 18px;    
+    width: 520px;
+    margin: 0;
+}
+
+.about .button button{
+    font-size: 17px;
+    width: 185px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: #fff;
+    color: var(--primary-soft);
+    border: none;
+    transition: 0.5s;
+}
+
+.about .button{
+    align-self: flex-start;
+}
+
+.about .button button:hover{
+    background-color: var(--primary-medium);
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.contact a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.contact :hover{
+    color: var(--primary-medium);
+    border-color: var(--primary-medium);
+}

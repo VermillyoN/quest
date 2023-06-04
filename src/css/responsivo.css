@@ -1,0 +1,77 @@
+@media(max-width:375px){
+
+    body{
+        background: url('../img/bg-mobile.svg')center top no-repeat;
+        background-color: var(--primary-soft);
+        margin: 0;
+      }
+    main{
+        width: 80%;
+        height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center; 
+       align-items: center;
+    }
+
+    .huddle img{
+        width: 55%;
+           
+    }
+    .container-informacoes{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    }
+
+    .container-informacoes .layout{
+        margin: 0;
+    }
+
+    .container-informacoes .layout img{
+        
+        width: 300px;
+        height: 200px;
+        margin-top: 60px;
+    }
+
+    .about{
+        text-align: center;
+        width: 90%;   
+    }
+
+    .about h2{
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .about p{
+       font-size: 15px;
+        width: 100%;
+    }
+
+    .about .button{
+        margin: 0 auto;
+        box-shadow: 0 5px 5px;
+        border-radius: 50px;
+       
+    }
+    .about .button button{
+        width: 220px;
+    }
+  
+    .contact{
+        grid-area: contact;
+        margin: auto;
+        gap: 10px;  
+       
+    }
+    .contact a{
+        width: 30px;
+        height: 30px; 
+
+    }
+
+    
+}
